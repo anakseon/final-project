@@ -107,7 +107,7 @@ DELETE FROM camels;
 CREATE TABLE новая_таблица AS
 SELECT * FROM horses
 UNION
-SELECT * FROM camels;
+SELECT * FROM donkeys;
 
 CREATE TABLE молодые_животные AS
 SELECT * 
